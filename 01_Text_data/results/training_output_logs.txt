@@ -1,0 +1,58 @@
+## unigram_8000 | provided notebook cell 93
+Epoch 01 | train loss 0.4494, acc 78.51% | val loss 0.3725, acc 83.61% | 19.3초 ← 최적 모델 저장
+Epoch 02 | train loss 0.3187, acc 86.28% | val loss 0.3401, acc 85.11% | 23.3초 ← 최적 모델 저장
+Epoch 03 | train loss 0.2646, acc 88.87% | val loss 0.3413, acc 85.15% | 18.7초
+Epoch 04 | train loss 0.2120, acc 91.33% | val loss 0.3622, acc 85.14% | 19.8초
+Epoch 05 | train loss 0.1528, acc 94.11% | val loss 0.4227, acc 84.59% | 19.7초
+Epoch 06 | train loss 0.0977, acc 96.47% | val loss 0.5166, acc 84.44% | 19.5초
+Epoch 07 | train loss 0.0603, acc 97.96% | val loss 0.6358, acc 84.25% | 20.3초
+Epoch 08 | train loss 0.0373, acc 98.81% | val loss 0.7946, acc 84.25% | 19.0초
+Epoch 09 | train loss 0.0281, acc 99.10% | val loss 0.8906, acc 84.21% | 19.7초
+Epoch 10 | train loss 0.0248, acc 99.22% | val loss 0.9644, acc 84.03% | 21.7초
+
+검증 loss 기준 최적 epoch: 2
+
+
+## bpe_8000 | provided notebook cell 112
+Epoch 01 | train loss 0.4503, acc 78.55% | val loss 0.3691, acc 83.58% | 20.9초 | 검증 loss 최저 갱신 → 모델 저장
+Epoch 02 | train loss 0.3200, acc 86.18% | val loss 0.3402, acc 85.13% | 19.2초 | 검증 loss 최저 갱신 → 모델 저장
+Epoch 03 | train loss 0.2661, acc 88.81% | val loss 0.3405, acc 85.42% | 20.4초
+Epoch 04 | train loss 0.2115, acc 91.52% | val loss 0.3649, acc 85.14% | 18.5초
+Epoch 05 | train loss 0.1521, acc 94.13% | val loss 0.4336, acc 84.66% | 22.8초
+Epoch 06 | train loss 0.0977, acc 96.49% | val loss 0.5308, acc 84.44% | 22.3초
+Epoch 07 | train loss 0.0578, acc 98.07% | val loss 0.6718, acc 84.12% | 20.9초
+Epoch 08 | train loss 0.0370, acc 98.83% | val loss 0.7949, acc 84.32% | 19.6초
+Epoch 09 | train loss 0.0272, acc 99.16% | val loss 0.8902, acc 84.05% | 18.9초
+Epoch 10 | train loss 0.0231, acc 99.26% | val loss 0.9627, acc 83.81% | 18.7초
+
+BPE 검증 loss 기준 선택 epoch: 2
+
+
+## unigram_4000 | provided notebook cell 132
+Epoch 01 | train loss 0.4410, acc 79.18% | val loss 0.3650, acc 83.87% | 23.9초 | 검증 loss 최저 갱신 → 모델 저장
+Epoch 02 | train loss 0.3296, acc 85.68% | val loss 0.3489, acc 84.70% | 22.1초 | 검증 loss 최저 갱신 → 모델 저장
+Epoch 03 | train loss 0.2827, acc 88.04% | val loss 0.3459, acc 84.93% | 20.1초 | 검증 loss 최저 갱신 → 모델 저장
+Epoch 04 | train loss 0.2356, acc 90.30% | val loss 0.3611, acc 85.01% | 23.3초
+Epoch 05 | train loss 0.1860, acc 92.71% | val loss 0.3949, acc 84.95% | 21.7초
+Epoch 06 | train loss 0.1347, acc 94.91% | val loss 0.4709, acc 84.10% | 28.0초
+Epoch 07 | train loss 0.0939, acc 96.68% | val loss 0.5413, acc 84.11% | 21.2초
+Epoch 08 | train loss 0.0643, acc 97.84% | val loss 0.6632, acc 83.95% | 25.1초
+Epoch 09 | train loss 0.0462, acc 98.49% | val loss 0.7597, acc 83.91% | 22.1초
+Epoch 10 | train loss 0.0370, acc 98.78% | val loss 0.8173, acc 83.63% | 23.2초
+
+Unigram 4,000 검증 loss 기준 선택 epoch: 3
+
+
+## mecab_8000 | provided notebook cell 151
+Epoch 01 | train loss 0.4105, acc 81.01% | val loss 0.3504, acc 84.41% | 24.4초 | 검증 loss 최저 갱신 → 모델 저장
+Epoch 02 | train loss 0.3051, acc 86.89% | val loss 0.3254, acc 85.98% | 19.8초 | 검증 loss 최저 갱신 → 모델 저장
+Epoch 03 | train loss 0.2558, acc 89.35% | val loss 0.3155, acc 86.50% | 19.8초 | 검증 loss 최저 갱신 → 모델 저장
+Epoch 04 | train loss 0.2120, acc 91.45% | val loss 0.3236, acc 86.10% | 20.7초
+Epoch 05 | train loss 0.1686, acc 93.43% | val loss 0.3626, acc 86.36% | 20.0초
+Epoch 06 | train loss 0.1259, acc 95.29% | val loss 0.4161, acc 85.84% | 19.9초
+Epoch 07 | train loss 0.0937, acc 96.62% | val loss 0.4715, acc 85.92% | 19.4초
+Epoch 08 | train loss 0.0680, acc 97.60% | val loss 0.5833, acc 85.60% | 19.6초
+Epoch 09 | train loss 0.0507, acc 98.23% | val loss 0.6328, acc 85.44% | 19.8초
+Epoch 10 | train loss 0.0402, acc 98.60% | val loss 0.7050, acc 85.26% | 19.6초
+
+MeCab 검증 loss 기준 선택 epoch: 3

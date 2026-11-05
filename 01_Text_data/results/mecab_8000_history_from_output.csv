@@ -1,0 +1,11 @@
+epoch,train_loss,train_acc,val_loss,val_acc,elapsed_seconds,source_cell_1based,precision
+1,0.4105,0.8101,0.3504,0.8441,24.4,151,rounded_saved_stdout
+2,0.3051,0.8689,0.3254,0.8598,19.8,151,rounded_saved_stdout
+3,0.2558,0.8935,0.3155,0.8650,19.8,151,rounded_saved_stdout
+4,0.212,0.9145,0.3236,0.8610,20.7,151,rounded_saved_stdout
+5,0.1686,0.9343,0.3626,0.8636,20.0,151,rounded_saved_stdout
+6,0.1259,0.9529,0.4161,0.8584,19.9,151,rounded_saved_stdout
+7,0.0937,0.9662,0.4715,0.8592,19.4,151,rounded_saved_stdout
+8,0.068,0.9760,0.5833,0.8560,19.6,151,rounded_saved_stdout
+9,0.0507,0.9823,0.6328,0.8544,19.8,151,rounded_saved_stdout
+10,0.0402,0.9860,0.705,0.8526,19.6,151,rounded_saved_stdout

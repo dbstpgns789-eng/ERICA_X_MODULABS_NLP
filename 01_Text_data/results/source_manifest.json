@@ -1,0 +1,57 @@
+{
+  "review_date": "2026-11-06",
+  "input_notebook": {
+    "filename": "2_멋진_단어사전_만들기_[프로젝트] (1).ipynb",
+    "bytes": 1230987,
+    "sha256": "7bb7ff4a2a310bcd2597fa7fb7ba387c2b204a628740a96f673f4dbaa0a96624",
+    "cell_count": 157
+  },
+  "cell_number_convention": "1-based JSON cells array; not execution_count",
+  "published_notebook": "notebooks/sentencepiece_sentiment.ipynb",
+  "original_unchanged": true,
+  "original_full_notebook_published": false,
+  "artifacts": [
+    {
+      "file": "all_experiments_accuracy.png",
+      "bytes": 47055,
+      "sha256": "8183554a6ec24cb59f231f3a1080feb7d15b84706e49fbda5e8ae568de0c9de3",
+      "origin": "user_download"
+    },
+    {
+      "file": "all_experiments_learning_curves.png",
+      "bytes": 185937,
+      "sha256": "bef9f42d23d952e0ba3a570c241dd9c6db12efe9246a250ffc3201686c939689",
+      "origin": "user_download"
+    },
+    {
+      "file": "mecab_8000_learning_curves.png",
+      "bytes": 96081,
+      "sha256": "39aea41e18218daa2fe6819d651bc441a5ed4bdc2047827623946882a941cdce",
+      "origin": "user_download"
+    },
+    {
+      "file": "nsmc_unigram_8000_lstm_learning_curves.png",
+      "bytes": 77737,
+      "sha256": "ea86cc1a8b6a76a16127a8157fe2a546dfa2d0096c4b916a2f0fb7a198cbfa65",
+      "origin": "user_download"
+    },
+    {
+      "file": "test_review_predictions.csv",
+      "bytes": 6648159,
+      "sha256": "86cbb92395cd46e007ef4c20873e82d8d7ecb2d7868f4986027f651ff5347f5a",
+      "origin": "user_download"
+    },
+    {
+      "file": "tokenizer_comparison.csv",
+      "bytes": 792,
+      "sha256": "19b0e1067cf0cc425ddc2848f446aa82563d5a689a5507e5a70218bc655be66c",
+      "origin": "user_download"
+    },
+    {
+      "file": "four_experiments_accuracy.png",
+      "origin": "saved_notebook_image",
+      "source_cell_1based": 155
+    }
+  ],
+  "history_note": "History CSVs are reconstructed from saved stdout, rounded to displayed precision; no training rerun. tokenizer_comparison.csv preserves user exported values."
+}

@@ -1,0 +1,4 @@
+# Preserve exported CSV bytes for the recorded source hashes.
+01_Text_data/results/*.csv -text
+# The original peer-review template is kept verbatim, including whitespace.
+01_Text_data/learning/PRT_original.md -whitespace

@@ -1,0 +1,68 @@
+{
+  "review_date": "2026-11-06",
+  "scope": "saved outputs and static validation; full Colab rerun not performed",
+  "full_colab_rerun": false,
+  "notebook_schema": "passed",
+  "notebook_code_syntax": "passed",
+  "preserved_source_cells": 94,
+  "unexecuted_added_code_cells": 1,
+  "src_python_syntax": "passed",
+  "local_markdown_links": {
+    "checked": 27,
+    "missing": []
+  },
+  "png_files": [
+    {
+      "file": "all_experiments_accuracy.png",
+      "size": [
+        1634,
+        732
+      ]
+    },
+    {
+      "file": "all_experiments_learning_curves.png",
+      "size": [
+        2384,
+        1181
+      ]
+    },
+    {
+      "file": "four_experiments_accuracy.png",
+      "size": [
+        1189,
+        490
+      ]
+    },
+    {
+      "file": "mecab_8000_learning_curves.png",
+      "size": [
+        1784,
+        581
+      ]
+    },
+    {
+      "file": "nsmc_unigram_8000_lstm_learning_curves.png",
+      "size": [
+        1784,
+        581
+      ]
+    }
+  ],
+  "prediction_csv_consistency": "passed for unigram and BPE full-test accuracy",
+  "test_rows": 49997,
+  "history_logs": "four experiments x ten epochs; rounded saved output",
+  "original_file_and_preserved_outputs": "passed; source hash unchanged and kept cell source/outputs identical",
+  "credential_pattern_scan": "no matching key patterns; not a universal security proof",
+  "cpu_integration": {
+    "status": "passed",
+    "torch": "2.14.0+cpu",
+    "samples": 4,
+    "checks": [
+      "dynamic padding",
+      "forward/backward/optimizer update",
+      "PAD embedding unchanged",
+      "evaluation",
+      "prediction counts"
+    ]
+  }
+}
